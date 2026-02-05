@@ -16,4 +16,17 @@ Bienvenido, a continuación verás mis apuntes de Inteligencia Artificial
 ![notitas](imagenes/notas11.jpeg)
 ![notitas](imagenes/notas12.jpeg)
 ![notitas](imagenes/notas13.jpeg)
+![notitas](imagenes/notas14.jpeg)
+![notitas](imagenes/notas15.jpeg)
+![notitas](imagenes/notas16.jpeg)
+![notitas](imagenes/notas17.jpeg)
+![notitas](imagenes/notas18.jpeg)
+![notitas](imagenes/notas19.jpeg)
+![notitas](imagenes/notas20.jpeg)
+![notitas](imagenes/notas21.jpeg)
+![notitas](imagenes/notas22.jpeg)
+![notitas](imagenes/notas23.jpeg)
+![notitas](imagenes/notas24.jpeg)
+![notitas](imagenes/notas25.jpeg)
+
 
