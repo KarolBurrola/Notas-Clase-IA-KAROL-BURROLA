@@ -20,7 +20,9 @@ Mis Notas en PDF:
 
 <div align="center">
 
-[![Mis Notas 1](https://img.shields.io/badge/Mis_Notas_1-Abrir_PDF-success?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./notas/notas_ia_completas.pdf)
+<a href="./notas/notas_ia_completas.pdf">
+  <img src="https://img.shields.io/badge/Mis_Notas_1-Abrir_PDF-success?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Mis Notas 1">
+</a>
 
 <p>Haz clic en el botón de arriba para ver el PDF con todas mis notas de clase</p>
 
