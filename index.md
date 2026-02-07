@@ -1,5 +1,5 @@
 ---
-title: Notas IA, Karol Burrola
+title: Notas de Inteligencia Artificial Karol Burrola
 ---
 
 <div align="center">
