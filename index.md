@@ -40,11 +40,10 @@ body {
 
 <h1>Notas de Inteligencia Artificial</h1>
 
-<p><strong>Karol Burrola Torres</strong></p>
+<p><strong>Elaboradas por: Karol Burrola Torres</strong></p>
 
 <p>
-Apuntes completos del curso de <em>Inteligencia Artificial</em>,  
-organizados y listos para consulta.
+Apuntes completos del curso de <em>Inteligencia Artificial</em>
 </p>
 
 <hr style="width:60%;">
@@ -53,7 +52,7 @@ organizados y listos para consulta.
 
 ---
 
-##Mis notas en PDF
+Mis notas en PDF
 
 <div align="center" class="card" style="
 margin-top: 30px;
