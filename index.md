@@ -14,6 +14,25 @@ body {
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
+.btn-pdf {
+  display: inline-block;
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  box-shadow: 0 6px 15px rgba(59, 130, 246, 0.35);
+}
+
+.btn-pdf:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.45);
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #0f172a;
@@ -32,9 +51,17 @@ body {
   p {
     color: #cbd5f5;
   }
+
+  .btn-pdf {
+    background-color: #60a5fa;
+    box-shadow: 0 6px 20px rgba(96, 165, 250, 0.4);
+  }
+
+  .btn-pdf:hover {
+    background-color: #3b82f6;
+  }
 }
 </style>
-
 
 <div align="center">
 
@@ -52,28 +79,27 @@ Apuntes completos del curso de <em>Inteligencia Artificial</em>
 
 ---
 
-Mis notas en PDF
+## Mis notas en PDF
 
 <div align="center" class="card" style="
 margin-top: 30px;
-padding: 25px;
-border-radius: 15px;
+padding: 30px;
+border-radius: 18px;
 width: 80%;
 margin-left: auto;
 margin-right: auto;
 ">
 
-<p style="font-size: 18px;">
-<strong>Notas completas del curso</strong>
+<p style="font-size: 20px; font-weight: 600;">
+Notas completas del curso
 </p>
 
-<a href="./notas/notas_ia_completas.pdf">
-<img src="https://img.shields.io/badge/Abrir_PDF-Notas_IA-success?style=for-the-badge&logo=adobeacrobatreader&logoColor=white">
+<a href="./notas/notas_ia_completas.pdf" class="btn-pdf">
+Abrir PDF
 </a>
 
-<p style="margin-top: 15px; font-size: 14px;">
+<p style="margin-top: 18px; font-size: 14px;">
 Haz clic en el botón para abrir el archivo PDF con todas mis notas de clase.
 </p>
 
 </div>
-
