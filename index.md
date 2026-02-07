@@ -14,7 +14,6 @@ body {
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
-/* ===== MODO OSCURO ===== */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #0f172a;
@@ -35,6 +34,7 @@ body {
   }
 }
 </style>
+
 
 <div align="center">
 
@@ -65,7 +65,7 @@ margin-right: auto;
 ">
 
 <p style="font-size: 18px;">
-📄 <strong>Notas completas del curso</strong>
+<strong>Notas completas del curso</strong>
 </p>
 
 <a href="./notas/notas_ia_completas.pdf">
