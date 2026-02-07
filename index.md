@@ -22,7 +22,7 @@ Mis Notas en PDF:
 
 [![Mis Notas 1](https://img.shields.io/badge/Mis_Notas_1-Abrir_PDF-success?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./notas/notas_ia_completas.pdf)
 
-> *Haz clic en el botón de arriba para ver el PDF con todas mis notas de clase*
+> -- Haz clic en el botón de arriba para ver el PDF con todas mis notas de clase --
 
 </div>
 
