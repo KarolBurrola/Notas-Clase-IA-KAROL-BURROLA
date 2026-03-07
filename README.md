@@ -1,6 +1,6 @@
-# 💖 Notas - Inteligencia Artificial - Karol Burrola 💖
+# Notas - Inteligencia Artificial - Karol Burrola 📓
 
-Bienvenido a mi repositorio con mis notas de clase. 📓
+Bienvenido a mi repositorio con mis notas de clase
 
 ---
 
