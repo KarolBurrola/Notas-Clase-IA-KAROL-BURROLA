@@ -114,7 +114,7 @@ A continuación, se presenta una agenda detallada de los temas cubiertos en el c
 * Conjunto de estados finales $S_f \subseteq S$.
 * Acciones legales $A(s) \subseteq A$.
 * Función sucesor: $Succ(S, A) \rightarrow S$.
-* Costo local: $costo\_local(S, A) \rightarrow \mathbb{R}^+$.
+* Costo local: $\text{costo\_local}(S, A) \rightarrow \mathbb{R}^+$.
 
 ### El Objetivo (Plan)
 * Encontrar una secuencia de transiciones desde $S_0$ hasta un estado en $S_f$ tal que la suma de los costos locales sea mínima.
@@ -154,7 +154,7 @@ A continuación, se presenta una agenda detallada de los temas cubiertos en el c
 
 ### Cadenas de Markov
 * Entornos discretos, dinámicos, estocásticos y conocidos.
-* Propiedad de Markov: El estado futuro depende solo del estado presente, no de la historia pasada ($Pr(y_T | y_{0:T-1}) \equiv Pr(y_T | y_{T-1})$).
+* Propiedad de Markov: El estado futuro depende solo del estado presente, no de la historia pasada ($Pr(y_T \mid y_{0:T-1}) \equiv Pr(y_T \mid y_{T-1})$).
 * Matriz de transición y cálculo de probabilidades futuras ($P(X_t) = A^t P(X_{t0})$).
 
 ### Procesos de Decisión de Markov (MDP)
