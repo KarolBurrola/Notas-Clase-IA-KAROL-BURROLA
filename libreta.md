@@ -135,7 +135,7 @@ A continuación, se presenta una agenda detallada de los temas cubiertos en el c
 * Dominancia: Si $h_2(n) \ge h_1(n)$ y ambas son admisibles, $h_2$ domina a $h_1$ (es mejor).
 * Búsqueda de Costo Uniforme (UCS): Ordena frontera por costo acumulado ($g(n)$).
 * Búsqueda Codiciosa (Greedy): Ordena frontera solo por heurística ($h(n)$). Rápida pero no garantiza optimalidad.
-* Algoritmo A* ($A^*$): Ordena frontera por $f(n) = g(n) + h(n)$. Si $h(n)$ es admisible, A* es óptimo.
+* Algoritmo A*: Ordena frontera por $f(n) = g(n) + h(n)$. Si $h(n)$ es admisible, A* es óptimo
 
 ## IV. Juegos y Teoría de Decisiones con Adversarios (Multi-Agente)
 
