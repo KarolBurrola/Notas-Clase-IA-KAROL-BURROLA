@@ -57,6 +57,7 @@ strong {
   color: #d81b60;
 }
 </style>
+
 <div align="center">
 <h1>Notas de Inteligencia Artificial</h1>
 <p><strong>Elaboradas por: Karol Burrola Torres</strong></p>
@@ -65,7 +66,9 @@ Apuntes completos del curso de <em>Inteligencia Artificial</em>
 </p>
 <hr style="width:60%;">
 </div>
+
 ---
+
 Mis notas en PDF
 <div align="center" class="card" style="
 margin-top: 30px;
@@ -83,5 +86,28 @@ Abrir PDF
 </a>
 <p style="margin-top: 15px; font-size: 14px;">
 Haz clic en el botón para abrir el archivo PDF con todas mis notas de clase.
+</p>
+</div>
+
+<br>
+
+Mis notas en formato digital
+<div align="center" class="card" style="
+margin-top: 10px;
+margin-bottom: 30px;
+padding: 25px;
+border-radius: 15px;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+">
+<p style="font-size: 18px;">
+<strong>Notas del curso</strong>
+</p>
+<a href="./libreta.html" class="btn-pdf">
+Abrir libreta
+</a>
+<p style="margin-top: 15px; font-size: 14px;">
+Haz click en el botón para ver las notas de clase resumidas.
 </p>
 </div>
