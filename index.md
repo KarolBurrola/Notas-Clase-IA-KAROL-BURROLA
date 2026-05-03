@@ -189,7 +189,7 @@ layout: null
 
 <div class="barra-lateral">
   <h2>Índice del Curso</h2>
-  <strong>Unidad 1</strong>
+  <strong>Contenido: </strong>
   <a href="#notas11">Notas 1.1 (Fotos)</a>
   <a href="#notas12">Notas 1.2 (Texto)</a>
   <a href="#inicio">Volver al Inicio</a>
@@ -199,8 +199,8 @@ layout: null
 
 <div id="notas11" class="panel">
   <div class="tarjeta">
-    <div class="titulo">Notas 1.1 (Fotos)</div>
-    <p>Haz clic en el botón para abrir el documento escaneado en formato PDF con los esquemas y apuntes escritos a mano de la clase.</p>
+    <div class="titulo">Notas 1.1 - Apuntes tomados a mano en clase</div>
+    <p>Haz clic en el botón para ver mis notas en formato PDF.</p>
     <a href="./notas/notas_ia_completas.pdf" class="boton-pdf">Abrir PDF</a>
   </div>
 </div>
@@ -208,9 +208,9 @@ layout: null
 <div id="notas12" class="panel">
 <div class="tarjeta notas-texto" markdown="1">
 
-# Agenda Detallada del Curso de Inteligencia Artificial
+# Resumen de Apuntes del Curso de Inteligencia Artificial
 
-A continuación, se presenta una agenda detallada de los temas cubiertos en el curso de Inteligencia Artificial, organizada de manera lógica para facilitar la comprensión y revisión del material.
+A continuación, se presenta una agenda detallada de los temas cubiertos en el curso de Inteligencia Artificial.
 
 ## I. Introducción a la Inteligencia Artificial
 
@@ -371,7 +371,7 @@ $$V^{\ast}(s) = \max_a \left( \sum_{s' \in S} T(s,a,s') [r(s,a,s') + \gamma V^{\
 
 <hr>
 <p style="text-align: right; font-size: 0.85em; color: #8c85d8; margin-top: 30px;">
-  <em>Apuntes elaborados con ayuda de Gemini de Google</em> ✨
+  <em>Apuntes elaborados con ayuda de Gemini</em>
 </p>
 
 </div>
@@ -383,7 +383,7 @@ $$V^{\ast}(s) = \max_a \left( \sum_{s' \in S} T(s,a,s') [r(s,a,s') + \gamma V^{\
 <div class="subtitulo">Por: Karol Burrola Torres</div>
 
 <div class="objetivo">
-<strong>Objetivo:</strong> Comprender los conceptos fundamentales del curso de Inteligencia Artificial a través de apuntes organizados por unidades.
+<strong>Objetivo:</strong> Comprender los conceptos fundamentales del curso de Inteligencia Artificial organizándolos por medio de notas, apuntes y material de apoyo
 </div>
 </div>
 </div>
