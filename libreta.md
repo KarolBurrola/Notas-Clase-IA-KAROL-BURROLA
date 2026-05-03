@@ -165,7 +165,8 @@ A continuación, se presenta una agenda detallada de los temas cubiertos en el c
 ### Funciones de Valor y Ecuaciones de Bellman
 * Función de Valor de Estado ($V^\Pi(s)$): Esperanza de recompensa siguiendo la política $\Pi$ desde el estado $s$.
 * Función de Valor de Estado-Acción ($Q^\Pi(s, a)$): Esperanza de recompensa tomando la acción $a$ en el estado $s$ y luego siguiendo la política $\Pi$.
-* Ecuación de Optimalidad de Bellman: Relación recursiva para encontrar el valor óptimo. $V^*(s) = \max_a \sum_{s'} T(s,a,s') [r(s,a,s') + \gamma V^*(s')]$.
+* Ecuación de Optimalidad de Bellman: Relación recursiva para encontrar el valor óptimo.
+$$ V^*(s) = \max_a \sum_{s'} T(s,a,s') [r(s,a,s') + \gamma V^*(s')] $$
 
 ### Resolución de MDPs (Programación Dinámica)
 * Iteración de Valores (Value Iteration): Actualización iterativa de la función de valor $V(s)$ hasta la convergencia.
