@@ -190,28 +190,28 @@ layout: null
 </head>
 
 <body>
-  <div class="distribucion">
+<div class="distribucion">
 
-    <div class="barra-lateral">
-      <h2>Índice del Curso</h2>
-      <strong>Unidad 1</strong>
-      <a href="#notas11">Notas 1.1 (Fotos)</a>
-      <a href="#notas12">Notas 1.2 (Texto)</a>
-      <a href="#inicio">Volver al Inicio</a>
-    </div>
+<div class="barra-lateral">
+  <h2>Índice del Curso</h2>
+  <strong>Unidad 1</strong>
+  <a href="#notas11">Notas 1.1 (Fotos)</a>
+  <a href="#notas12">Notas 1.2 (Texto)</a>
+  <a href="#inicio">Volver al Inicio</a>
+</div>
 
-    <div class="contenido">
+<div class="contenido">
 
-      <div id="notas11" class="panel">
-        <div class="tarjeta">
-          <div class="titulo">Notas 1.1 (Fotos)</div>
-          <p>Haz clic en el botón para abrir el documento escaneado en formato PDF con los esquemas y apuntes escritos a mano de la clase.</p>
-          <a href="./notas/notas_ia_completas.pdf" class="boton-pdf">Abrir PDF</a>
-        </div>
-      </div>
+<div id="notas11" class="panel">
+  <div class="tarjeta">
+    <div class="titulo">Notas 1.1 (Fotos)</div>
+    <p>Haz clic en el botón para abrir el documento escaneado en formato PDF con los esquemas y apuntes escritos a mano de la clase.</p>
+    <a href="./notas/notas_ia_completas.pdf" class="boton-pdf">Abrir PDF</a>
+  </div>
+</div>
 
-      <div id="notas12" class="panel">
-        <div class="tarjeta notas-texto" markdown="1">
+<div id="notas12" class="panel">
+<div class="tarjeta notas-texto" markdown="1">
 
 # Agenda Detallada del Curso de Inteligencia Artificial
 
@@ -379,21 +379,21 @@ $$V^{\ast}(s) = \max_a \left( \sum_{s' \in S} T(s,a,s') [r(s,a,s') + \gamma V^{\
   <em>Apuntes elaborados con ayuda de Gemini de Google</em> ✨
 </p>
 
-        </div>
-      </div>
+</div>
+</div>
 
-      <div id="inicio">
-        <div class="tarjeta">
-          <div class="titulo">Notas de Inteligencia Artificial</div>
-          <div class="subtitulo">Por: Karol Burrola Torres</div>
+<div id="inicio">
+<div class="tarjeta">
+<div class="titulo">Notas de Inteligencia Artificial</div>
+<div class="subtitulo">Por: Karol Burrola Torres</div>
 
-          <div class="objetivo">
-            <strong>Objetivo:</strong> Comprender los conceptos fundamentales del curso de Inteligencia Artificial a través de apuntes organizados por unidades.
-          </div>
-        </div>
-      </div>
+<div class="objetivo">
+<strong>Objetivo:</strong> Comprender los conceptos fundamentales del curso de Inteligencia Artificial a través de apuntes organizados por unidades.
+</div>
+</div>
+</div>
 
-    </div>
-  </div>
+</div>
+</div>
 </body>
 </html>
