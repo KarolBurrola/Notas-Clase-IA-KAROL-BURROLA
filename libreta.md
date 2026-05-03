@@ -7,58 +7,56 @@ body {
   background: linear-gradient(to bottom, #ffffff 0%, #fff5f7 100%);
   color: #2d1b24;
   font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  line-height: 1.8; /* Aumentado para más respiro vertical */
+  line-height: 1.9; 
+  font-size: 17px; 
 }
 .notas-container {
   background: white;
   border: 2px solid #ffc2d4;
   box-shadow: 0 8px 24px rgba(255, 182, 193, 0.25), 0 2px 8px rgba(255, 105, 180, 0.1);
   border-radius: 15px;
-  padding: 50px; /* Un poco más de padding interno */
-  width: 90%;
-  max-width: 1100px; /* Aumentado de 900px a 1100px para que sea más ancho */
-  margin: 40px auto;
+  padding: 60px 70px; 
+  width: 95%;
+  max-width: 1200px; 
+  margin: 50px auto;
 }
 h1, h2 {
   color: #c2185b;
-  margin-top: 45px; /* Más espacio antes de los títulos */
+  margin-top: 55px; /* Separación enorme antes de cambiar de tema */
 }
 h3 {
   color: #d81b60;
-  font-size: 1.15em;
-  margin-top: 35px; /* Más espacio antes de los subtítulos */
-  margin-bottom: 10px;
+  font-size: 1.25em;
+  margin-top: 40px; 
+  margin-bottom: 15px;
 }
 h1 {
   text-align: center;
   border-bottom: 2px solid #ffb3d9;
-  padding-bottom: 15px;
-  margin-bottom: 40px; /* Más espacio después del título principal */
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  font-size: 2.2em;
 }
 h2 {
   background-color: #fff0f5;
-  padding: 12px 18px;
+  padding: 15px 25px; 
   border-radius: 8px;
-  border-left: 5px solid #ff69b4;
-  font-size: 1.4em;
-  margin-bottom: 20px;
+  border-left: 6px solid #ff69b4;
+  font-size: 1.5em;
+  margin-bottom: 30px;
 }
 ul {
-  margin-bottom: 30px; /* Más espacio debajo de las listas */
-  padding-left: 30px;
+  margin-bottom: 40px; 
+  padding-left: 35px;
 }
 li {
-  margin-bottom: 15px; /* Aumentado para separar más los puntos entre sí */
-  line-height: 1.7;
+  margin-bottom: 20px; 
 }
 hr {
   border: none;
   height: 2px;
   background: linear-gradient(to right, transparent, #ffb3d9, transparent);
-  margin: 40px auto;
-}
-p {
-  margin-bottom: 20px;
+  margin: 50px auto;
 }
 </style>
 
@@ -141,7 +139,7 @@ A continuación, se presenta una agenda detallada de los temas cubiertos en el c
 * Dominancia: Si $h_2(n) \ge h_1(n)$ y ambas son admisibles, $h_2$ domina a $h_1$ (es mejor).
 * Búsqueda de Costo Uniforme (UCS): Ordena frontera por costo acumulado ($g(n)$).
 * Búsqueda Codiciosa (Greedy): Ordena frontera solo por heurística ($h(n)$). Rápida pero no garantiza optimalidad.
-* Algoritmo A*: Ordena frontera por $f(n) = g(n) + h(n)$. Si $h(n)$ es admisible, A* es óptimo
+* Algoritmo A*: Ordena frontera por $f(n) = g(n) + h(n)$. Si $h(n)$ es admisible, A* es óptimo.
 
 ## IV. Juegos y Teoría de Decisiones con Adversarios (Multi-Agente)
 
@@ -236,4 +234,8 @@ $$V^{\ast}(s) = \max_a \left( \sum_{s' \in S} T(s,a,s') [r(s,a,s') + \gamma V^{\
 * Temple Simulado (Simulated Annealing): Variante de descenso de colinas que permite movimientos hacia estados peores con cierta probabilidad para escapar de óptimos locales.
 * Algoritmos Genéticos: Inspirados en la evolución. Maneja una población de soluciones. Operadores incluyen Función de Adaptación (Fitness), Selección (Ruleta, Torneo), Cruza (Crossover), Mutación y Elitismo.
 
+<hr>
+<p style="text-align: right; font-size: 0.85em; color: #a06b85; margin-top: 30px;">
+  <em>Apuntes elaborados con ayuda de Gemini de Google</em> 
+</p>
 </div>
