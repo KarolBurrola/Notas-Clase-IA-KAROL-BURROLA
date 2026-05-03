@@ -7,7 +7,7 @@ body {
   background: linear-gradient(to bottom, #ffffff 0%, #fff5f7 100%);
   color: #2d1b24;
   font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  line-height: 1.9; 
+  line-height: 1.6; 
   font-size: 17px; 
 }
 .notas-container {
@@ -15,48 +15,50 @@ body {
   border: 2px solid #ffc2d4;
   box-shadow: 0 8px 24px rgba(255, 182, 193, 0.25), 0 2px 8px rgba(255, 105, 180, 0.1);
   border-radius: 15px;
-  padding: 60px 70px; 
-  width: 95%;
-  max-width: 1200px; 
-  margin: 50px auto;
+  padding: 40px 50px; 
+  width: 98%; 
+  max-width: 1400px; 
+  margin: 40px auto !important; 
+  text-align: left; 
+  box-sizing: border-box; 
 }
 h1, h2 {
   color: #c2185b;
-  margin-top: 55px; /* Separación enorme antes de cambiar de tema */
+  margin-top: 30px; 
 }
 h3 {
   color: #d81b60;
   font-size: 1.25em;
-  margin-top: 40px; 
-  margin-bottom: 15px;
+  margin-top: 25px; 
+  margin-bottom: 10px;
 }
 h1 {
-  text-align: center;
+  text-align: center; 
   border-bottom: 2px solid #ffb3d9;
-  padding-bottom: 20px;
-  margin-bottom: 50px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
   font-size: 2.2em;
 }
 h2 {
   background-color: #fff0f5;
-  padding: 15px 25px; 
+  padding: 10px 15px; 
   border-radius: 8px;
   border-left: 6px solid #ff69b4;
   font-size: 1.5em;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 ul {
-  margin-bottom: 40px; 
-  padding-left: 35px;
+  margin-bottom: 20px; 
+  padding-left: 25px;
 }
 li {
-  margin-bottom: 20px; 
+  margin-bottom: 5px; 
 }
 hr {
   border: none;
   height: 2px;
   background: linear-gradient(to right, transparent, #ffb3d9, transparent);
-  margin: 50px auto;
+  margin: 30px auto;
 }
 </style>
 
@@ -236,6 +238,6 @@ $$V^{\ast}(s) = \max_a \left( \sum_{s' \in S} T(s,a,s') [r(s,a,s') + \gamma V^{\
 
 <hr>
 <p style="text-align: right; font-size: 0.85em; color: #a06b85; margin-top: 30px;">
-  <em>Apuntes elaborados con ayuda de Gemini de Google</em> 
+  <em>Apuntes elaborados con ayuda de Gemini Google</em> 
 </p>
 </div>
