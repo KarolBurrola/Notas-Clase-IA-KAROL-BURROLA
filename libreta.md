@@ -7,52 +7,58 @@ body {
   background: linear-gradient(to bottom, #ffffff 0%, #fff5f7 100%);
   color: #2d1b24;
   font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  line-height: 1.6;
+  line-height: 1.8; /* Aumentado para más respiro vertical */
 }
 .notas-container {
   background: white;
   border: 2px solid #ffc2d4;
   box-shadow: 0 8px 24px rgba(255, 182, 193, 0.25), 0 2px 8px rgba(255, 105, 180, 0.1);
   border-radius: 15px;
-  padding: 40px;
-  width: 85%;
-  max-width: 900px;
+  padding: 50px; /* Un poco más de padding interno */
+  width: 90%;
+  max-width: 1100px; /* Aumentado de 900px a 1100px para que sea más ancho */
   margin: 40px auto;
 }
 h1, h2 {
   color: #c2185b;
-  margin-top: 35px;
+  margin-top: 45px; /* Más espacio antes de los títulos */
 }
 h3 {
   color: #d81b60;
   font-size: 1.15em;
-  margin-top: 25px;
-  margin-bottom: 5px;
+  margin-top: 35px; /* Más espacio antes de los subtítulos */
+  margin-bottom: 10px;
 }
 h1 {
   text-align: center;
   border-bottom: 2px solid #ffb3d9;
   padding-bottom: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 40px; /* Más espacio después del título principal */
 }
 h2 {
   background-color: #fff0f5;
-  padding: 10px 15px;
+  padding: 12px 18px;
   border-radius: 8px;
   border-left: 5px solid #ff69b4;
   font-size: 1.4em;
-}
-ul {
   margin-bottom: 20px;
 }
+ul {
+  margin-bottom: 30px; /* Más espacio debajo de las listas */
+  padding-left: 30px;
+}
 li {
-  margin-bottom: 8px;
+  margin-bottom: 15px; /* Aumentado para separar más los puntos entre sí */
+  line-height: 1.7;
 }
 hr {
   border: none;
   height: 2px;
   background: linear-gradient(to right, transparent, #ffb3d9, transparent);
-  margin: 30px auto;
+  margin: 40px auto;
+}
+p {
+  margin-bottom: 20px;
 }
 </style>
 
