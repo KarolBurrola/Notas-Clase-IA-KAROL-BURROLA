@@ -1,195 +1,190 @@
 ---
 layout: null
 ---
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Notas de Inteligencia Artificial</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-      background-color: #f6f7ff;
-      color: #2e2a5a;
-    }
+<meta charset="UTF-8">
+<title>Notas de Inteligencia Artificial</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f6f7ff;
+    color: #2e2a5a;
+  }
 
-    .distribucion {
-      display: flex;
-      min-height: 100vh;
-      width: 100vw;
-    }
+  .distribucion {
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+  }
 
-    .barra-lateral {
-      width: 260px;
-      min-width: 260px;
-      background: linear-gradient(180deg, #eef0ff, #f7f8ff);
-      padding: 28px 20px;
-      border-right: 5px solid #6c5ce7;
-      height: 100vh;
-      position: sticky;
-      top: 0;
-    }
+  .barra-lateral {
+    width: 260px;
+    min-width: 260px;
+    background: linear-gradient(180deg, #eef0ff, #f7f8ff);
+    padding: 28px 20px;
+    border-right: 5px solid #6c5ce7;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  }
 
-    .barra-lateral h2 {
-      color: #5b4cf0;
-      font-size: 22px;
-      margin-bottom: 22px;
-      margin-top: 0;
-    }
+  .barra-lateral h2 {
+    color: #5b4cf0;
+    font-size: 22px;
+    margin-bottom: 22px;
+    margin-top: 0;
+  }
 
-    .barra-lateral strong {
-      display: block;
-      margin-bottom: 12px;
-      color: #4a43b8;
-    }
+  .barra-lateral strong {
+    display: block;
+    margin-bottom: 12px;
+    color: #4a43b8;
+  }
 
-    .barra-lateral a {
-      display: block;
-      padding: 12px 16px;
-      margin-bottom: 12px;
-      border-radius: 14px;
-      text-decoration: none;
-      color: #3f3a8a;
-      background-color: #ecebff;
-      font-weight: 500;
-      transition: all 0.2s ease;
-    }
+  .barra-lateral a {
+    display: block;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    border-radius: 14px;
+    text-decoration: none;
+    color: #3f3a8a;
+    background-color: #ecebff;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
 
-    .barra-lateral a:hover {
-      background-color: #dcd9ff;
-    }
+  .barra-lateral a:hover {
+    background-color: #dcd9ff;
+  }
 
-    .contenido {
-      flex: 1;
-      padding: 45px;
-      max-width: calc(100vw - 260px);
-    }
+  .contenido {
+    flex: 1;
+    padding: 45px;
+    max-width: calc(100vw - 260px);
+  }
 
-    .panel {
-      display: none;
-    }
+  .panel {
+    display: none;
+  }
 
-    .panel:target {
-      display: block;
-    }
+  .panel:target {
+    display: block;
+  }
 
-    #inicio {
-      display: block;
-    }
+  #inicio {
+    display: block;
+  }
 
-    .panel:target ~ #inicio {
-      display: none;
-    }
+  .panel:target ~ #inicio {
+    display: none;
+  }
 
-    .tarjeta {
-      background-color: #ffffff;
-      border-radius: 22px;
-      padding: 36px;
-      box-shadow: 0 15px 40px rgba(92, 79, 230, 0.18);
-      width: 100%;
-    }
+  .tarjeta {
+    background-color: #ffffff;
+    border-radius: 22px;
+    padding: 36px;
+    box-shadow: 0 15px 40px rgba(92, 79, 230, 0.18);
+    width: 100%;
+  }
 
-    .titulo {
-      font-size: 34px;
-      color: #5b4cf0;
-      margin-bottom: 12px;
-      margin-top: 0;
-    }
+  .titulo {
+    font-size: 34px;
+    color: #5b4cf0;
+    margin-bottom: 12px;
+    margin-top: 0;
+  }
 
-    .subtitulo {
-      color: #6b65c6;
-      margin-bottom: 28px;
-    }
+  .subtitulo {
+    color: #6b65c6;
+    margin-bottom: 28px;
+  }
 
-    .objetivo {
-      margin-top: 32px;
-      padding: 26px;
-      border-radius: 18px;
-      background-color: #f0efff;
-      border-left: 7px solid #6c5ce7;
-    }
+  .objetivo {
+    margin-top: 32px;
+    padding: 26px;
+    border-radius: 18px;
+    background-color: #f0efff;
+    border-left: 7px solid #6c5ce7;
+  }
 
-    .boton-pdf {
-      margin-top: 28px;
-      display: inline-block;
-      padding: 10px 22px;
-      background-color: #6c5ce7;
-      color: white;
-      border-radius: 12px;
-      text-decoration: none;
-      font-size: 15px;
-      font-weight: 500;
-      transition: all 0.2s ease;
-    }
+  .boton-pdf {
+    margin-top: 28px;
+    display: inline-block;
+    padding: 10px 22px;
+    background-color: #6c5ce7;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
 
-    .boton-pdf:hover {
-      background-color: #5b4cf0;
-      box-shadow: 0 4px 12px rgba(108, 92, 231, 0.4);
-    }
+  .boton-pdf:hover {
+    background-color: #5b4cf0;
+    box-shadow: 0 4px 12px rgba(108, 92, 231, 0.4);
+  }
 
-    .notas-texto {
-      line-height: 1.6;
-      font-size: 17px;
-    }
-    .notas-texto h1, .notas-texto h2 {
-      color: #5b4cf0;
-      margin-top: 30px;
-    }
-    .notas-texto h3 {
-      color: #6c5ce7;
-      font-size: 1.25em;
-      margin-top: 25px;
-      margin-bottom: 10px;
-    }
-    .notas-texto h1 {
-      text-align: center;
-      border-bottom: 2px solid #ecebff;
-      padding-bottom: 15px;
-      margin-bottom: 30px;
-      font-size: 2.2em;
-    }
-    .notas-texto h2 {
-      background-color: #f0efff;
-      padding: 10px 15px;
-      border-radius: 8px;
-      border-left: 6px solid #6c5ce7;
-      font-size: 1.5em;
-      margin-bottom: 15px;
-    }
-    .notas-texto ul {
-      margin-bottom: 20px;
-      padding-left: 25px;
-    }
-    .notas-texto li {
-      margin-bottom: 5px;
-    }
-    .notas-texto hr {
-      border: none;
-      height: 2px;
-      background: linear-gradient(to right, transparent, #dcd9ff, transparent);
-      margin: 30px auto;
-    }
-  </style>
+  .notas-texto {
+    line-height: 1.6;
+    font-size: 17px;
+  }
+  .notas-texto h1, .notas-texto h2 {
+    color: #5b4cf0;
+    margin-top: 30px;
+  }
+  .notas-texto h3 {
+    color: #6c5ce7;
+    font-size: 1.25em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  .notas-texto h1 {
+    text-align: center;
+    border-bottom: 2px solid #ecebff;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+  }
+  .notas-texto h2 {
+    background-color: #f0efff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border-left: 6px solid #6c5ce7;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  .notas-texto ul {
+    margin-bottom: 20px;
+    padding-left: 25px;
+  }
+  .notas-texto li {
+    margin-bottom: 5px;
+  }
+  .notas-texto hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #dcd9ff, transparent);
+    margin: 30px auto;
+  }
+</style>
 
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']]
-      }
-    };
-  </script>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-</head>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<body>
 <div class="distribucion">
 
 <div class="barra-lateral">
@@ -395,5 +390,3 @@ $$V^{\ast}(s) = \max_a \left( \sum_{s' \in S} T(s,a,s') [r(s,a,s') + \gamma V^{\
 
 </div>
 </div>
-</body>
-</html>
