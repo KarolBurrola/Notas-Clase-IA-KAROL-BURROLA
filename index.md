@@ -99,6 +99,14 @@ layout: null
     margin-top: 0;
   }
 
+.titulo-centrado {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid #ecebff;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+  }
+
   .subtitulo {
     color: #6b65c6;
     margin-bottom: 28px;
@@ -199,7 +207,7 @@ layout: null
 
 <div id="notas11" class="panel">
   <div class="tarjeta">
-    <div class="titulo">Notas 1.1 - Apuntes tomados a mano en clase</div>
+    <div class="titulo titulo-centrado">Notas 1.1 - Apuntes tomados a mano en clase</div>
     <p>Haz clic en el botón para ver mis notas en formato PDF.</p>
     <a href="./notas/notas_ia_completas.pdf" class="boton-pdf">Abrir PDF</a>
   </div>
