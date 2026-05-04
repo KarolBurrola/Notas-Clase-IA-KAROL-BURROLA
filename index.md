@@ -198,8 +198,8 @@ layout: null
 <div class="barra-lateral">
   <h2>Índice del Curso</h2>
   <strong>Contenido: </strong>
-  <a href="#notas11">Notas 1.1 (Fotos)</a>
-  <a href="#notas12">Notas 1.2 (Texto)</a>
+  <a href="#notas11">Notas 1.1 (Escritas)</a>
+  <a href="#notas12">Notas 1.2 (Digitales)</a>
   <a href="#inicio">Volver al Inicio</a>
 </div>
 
@@ -207,8 +207,8 @@ layout: null
 
 <div id="notas11" class="panel">
   <div class="tarjeta">
-    <div class="titulo titulo-centrado">Notas 1.1 - Apuntes tomados a mano en clase</div>
-    <p>Haz clic en el botón para ver mis notas en formato PDF.</p>
+    <div class="titulo titulo-centrado">Apuntes escritos tomados en clase</div>
+    <p>Haz clic en el botón para ver mis notas a mano en formato PDF.</p>
     <a href="./notas/notas_ia_completas.pdf" class="boton-pdf">Abrir PDF</a>
   </div>
 </div>
