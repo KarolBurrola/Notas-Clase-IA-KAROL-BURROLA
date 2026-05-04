@@ -196,7 +196,7 @@ layout: null
 <div class="distribucion">
 
 <div class="barra-lateral">
-  <h2>Índice del Curso</h2>
+  <h2>Notas del Curso</h2>
   <strong>Contenido: </strong>
   <a href="#notas11">Notas 1.1 (Escritas)</a>
   <a href="#notas12">Notas 1.2 (Digitales)</a>
@@ -207,7 +207,7 @@ layout: null
 
 <div id="notas11" class="panel">
   <div class="tarjeta">
-    <div class="titulo titulo-centrado">Apuntes escritos tomados en clase</div>
+    <div class="titulo titulo-centrado">Apuntes Escritos Tomados En Clase</div>
     <p>Haz clic en el botón para ver mis notas a mano en formato PDF.</p>
     <a href="./notas/notas_ia_completas.pdf" class="boton-pdf">Abrir PDF</a>
   </div>
